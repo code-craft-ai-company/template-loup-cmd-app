@@ -21,8 +21,9 @@ application. Work through it, then delete this file.
 - [ ] Set the starting version in both `package.lppkg` (`version`) and
       `source/appinfo.loup` (`APP_VERSION`). They must match: the program cannot
       read the manifest.
-- [ ] Choose the Loup toolchain version and set it in both `package.lppkg`
-      (`loup`) and `.github/workflows/ci.yml` (`LOUP_VERSION`).
+- [ ] Choose the Loup toolchain version and set it in `package.lppkg`
+      (`loup`), `.github/workflows/ci.yml` (`LOUP_VERSION`) and the pinned
+      install command in `README.md` ("Installing Loup Lite").
 - [ ] If the toolchain is newer than the one `skills/loup-programmer/`
       describes (1.25.1), copy a newer skill from the Loup repository's
       `skills/` directory if one exists.
