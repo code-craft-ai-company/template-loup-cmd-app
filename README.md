@@ -101,6 +101,7 @@ Exit status: `0` success, `1` runtime failure, `2` usage error.
 ```text
 package.lppkg            # Loup manifest
 Makefile                 # run, check, test, build, ci, clean
+LICENSE                  # MIT license
 source/                  # the application's Loup code
 ├── main.loup            # entry point
 ├── cli/                 # argument parsing, help text, command dispatch
@@ -124,3 +125,9 @@ the steps for adding a command.
 - The Wasm build (`loup-bootstrap build`) is experimental: modules that use
   `i"..."` interpolation build but trap at run time, so this template builds
   native binaries.
+
+## License
+
+[MIT](LICENSE), copyright 2026 Code Craft AI LLC. The Loup skill in
+[`skills/loup-programmer/`](skills/loup-programmer/) is copied from the Loup
+project and is not covered by this license; it keeps the Loup project's terms.

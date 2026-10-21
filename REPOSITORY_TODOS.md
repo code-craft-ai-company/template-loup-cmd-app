@@ -31,7 +31,9 @@ application. Work through it, then delete this file.
 ## Ownership and licensing
 
 - [ ] `package.lppkg`: fill in `authors`.
-- [ ] Add a `LICENSE` file. The template has none.
+- [ ] `LICENSE` is the MIT license, copyright 2026 Code Craft AI LLC. If this
+      project needs another holder or license, change it and the README's
+      License section.
 - [ ] On GitHub: set the repository description and topics, and leave
       **Template repository** unchecked under Settings → General unless this
       repository is itself meant to be a template.

@@ -21,6 +21,7 @@ mistakes. Load those only as needed.
 .
 ├── package.lppkg                # Loup manifest: name, version, toolchain, [build] entry, [test] pattern
 ├── Makefile                     # run, check, test, build, ci, clean
+├── LICENSE                      # MIT license (copyright Code Craft AI LLC)
 ├── source/                      # all Loup code; modules import each other by path from here
 │   ├── main.loup                # entry point: func main() calls run(runtime.args())
 │   ├── appinfo.loup             # APP_NAME, APP_VERSION, APP_SUMMARY, exit statuses
